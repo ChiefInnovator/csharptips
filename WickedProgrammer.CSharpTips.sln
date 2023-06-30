@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Collections", "1-Collections", "{22F4B4FE-606E-4E5E-A705-68F73821143D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "1-Collections\Collections\Collections.csproj", "{A2127361-2E30-400A-84B6-4CD3DA9BBAFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections.Tests", "1-Collections\Collections.Tests\Collections.Tests.csproj", "{FB134C65-BFC5-4E55-88EC-95A9233A9D28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Records", "2-Records", "{EB9B09B1-3428-4284-B70D-AF94BDAEFF88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-HTTP Compression", "3-HTTP Compression", "{6849540B-9006-4F40-B033-6C4464E53704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2127361-2E30-400A-84B6-4CD3DA9BBAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2127361-2E30-400A-84B6-4CD3DA9BBAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2127361-2E30-400A-84B6-4CD3DA9BBAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2127361-2E30-400A-84B6-4CD3DA9BBAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB134C65-BFC5-4E55-88EC-95A9233A9D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB134C65-BFC5-4E55-88EC-95A9233A9D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB134C65-BFC5-4E55-88EC-95A9233A9D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB134C65-BFC5-4E55-88EC-95A9233A9D28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2127361-2E30-400A-84B6-4CD3DA9BBAFB} = {22F4B4FE-606E-4E5E-A705-68F73821143D}
+		{FB134C65-BFC5-4E55-88EC-95A9233A9D28} = {22F4B4FE-606E-4E5E-A705-68F73821143D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08A7F847-5F17-444E-8232-7E5807179FD3}
+	EndGlobalSection
+EndGlobal
